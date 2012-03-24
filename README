@@ -1,1 +1,6 @@
-Casting to a superclass collection of superclassed items not allowed in Java
+Casting to a superclass collection of superclassed items not allowed in Java.
+The reason is that the type you cast to could then have added to it a third type, 
+which also subclassed the supertype but not the original items.
+
+See http://stackoverflow.com/questions/9832396/why-is-casting-a-sub-classed-collection-of-subclassed-objects-to-its-superclass
+
